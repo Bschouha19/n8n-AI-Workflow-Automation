@@ -55,11 +55,11 @@ Continued directly from Volume 4, not restarted. Modules 1–2 use low-stakes, r
 
 ## Progress
 
-**0 of 20 chapters complete** — Volume 5 kicked off 2026-07-11. Curriculum design and kickoff research complete; Chapter 01 not yet started.
+**1 of 20 chapters complete** — Volume 5 kicked off 2026-07-11. Chapter 01 (Automation Architecture) complete 2026-07-11.
 
 | Module | Chapters | Status |
 |--------|----------|--------|
-| 1 — Automation Engineering Foundations | Ch 01–04 | 🔜 Not started |
+| 1 — Automation Engineering Foundations | Ch 01–04 | 🔄 In progress (1/4) |
 | 2 — Workflow Design Patterns and Reliability Engineering | Ch 05–08 | 🔜 Not started |
 | 3 — AI-Native Automation | Ch 09–13 | 🔜 Not started |
 | 4 — Production Engineering | Ch 14–18 | 🔜 Not started |
@@ -69,8 +69,8 @@ Continued directly from Volume 4, not restarted. Modules 1–2 use low-stakes, r
 
 | # | Chapter | Status |
 |---|---------|--------|
-| 01 | Automation Architecture — Orchestration, Choreography, and the Trigger-Action Model | 🔜 Next |
-| 02 | Event-Driven Thinking and n8n's Trigger Model | 🔜 |
+| 01 | Automation Architecture — Orchestration, Choreography, and the Trigger-Action Model | ✅ Complete |
+| 02 | Event-Driven Thinking and n8n's Trigger Model | 🔜 Next |
 | 03 | The n8n Data Model and Expressions | 🔜 |
 | 04 | Connecting to the World — APIs, Webhooks, and Credentials | 🔜 |
 | 05 | Data Transformation and Validation at Scale | 🔜 |

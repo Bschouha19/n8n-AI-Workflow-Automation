@@ -13,7 +13,7 @@
 
 ## Progress
 
-**0 of 20 chapters complete.** Curriculum design and kickoff research in progress. No chapter has been written yet — see [ROADMAP.md](./ROADMAP.md) for the kickoff research log once it exists.
+**1 of 20 chapters complete.** Chapter 01 (Automation Architecture) shipped 2026-07-11 — see [ROADMAP.md](./ROADMAP.md) for the kickoff research log.
 
 ---
 
@@ -51,8 +51,8 @@ This course teaches **automation engineering**, not n8n's menu system. Every cha
 
 | # | Chapter | File | Status | Key Skills |
 |---|---------|------|--------|-----------|
-| 01 | Automation Architecture — Orchestration, Choreography, and the Trigger-Action Model | chapters/chapter-01-automation-architecture.md | 🔜 Next | Sync vs. async, orchestration vs. choreography, idempotency, delivery semantics, when NOT to use a visual platform (vs. Temporal/Airflow) |
-| 02 | Event-Driven Thinking and n8n's Trigger Model | chapters/chapter-02-event-driven-thinking.md | 🔜 | Events vs. polling, ordering, deduplication, idempotent handlers, n8n's full trigger taxonomy |
+| 01 | Automation Architecture — Orchestration, Choreography, and the Trigger-Action Model | chapters/chapter-01-automation-architecture.md | ✅ Complete | Sync vs. async, orchestration vs. choreography, idempotency, delivery semantics, when NOT to use a visual platform (vs. Temporal/Airflow) |
+| 02 | Event-Driven Thinking and n8n's Trigger Model | chapters/chapter-02-event-driven-thinking.md | 🔜 Next | Events vs. polling, ordering, deduplication, idempotent handlers, n8n's full trigger taxonomy |
 | 03 | The n8n Data Model and Expressions | chapters/chapter-03-data-model-expressions.md | 🔜 | Items, `json`/`binary`, `$json`/`$input`/`$node`, IF/Switch/Merge/Filter |
 | 04 | Connecting to the World — APIs, Webhooks, and Credentials | chapters/chapter-04-connecting-to-the-world.md | 🔜 | HTTP Request node, Credentials Manager, webhook authentication, OAuth2/API key patterns |
 

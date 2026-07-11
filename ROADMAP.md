@@ -104,4 +104,4 @@ Curriculum-level research run before any chapter existed, to ground the 20-chapt
 
 ---
 
-*Last updated: 2026-07-11 — Kickoff research complete, curriculum finalized at 20 chapters, awaiting Chapter 01.*
+*Last updated: 2026-07-11 — Chapter 01 (Automation Architecture) researched, drafted, verified, and shipped. Chapter 01's dedicated research pass (n8n v2.29.10 confirmed current; GitHub stars 196k holds up; n8n pricing is EUR-denominated and geo-priced, not the USD figure this kickoff summary cached; Zapier/Make integration counts refreshed to 9,000+/3,000+; Make switched to credit-based billing in Aug 2025; Temporal now has 7 SDKs) superseded the corresponding figures above — see chapter-01-automation-architecture.md's Technology Comparison and Cost Considerations sections for the current numbers. Chapter 02 next.*
