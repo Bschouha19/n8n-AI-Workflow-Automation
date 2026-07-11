@@ -355,8 +355,8 @@ Volume 4 repository: https://github.com/Bschouha19/AI-Agent-Engineering
 | 01 | Automation Architecture — Orchestration, Choreography, and the Trigger-Action Model | chapters/chapter-01-automation-architecture.md | ✅ Complete |
 | 02 | Event-Driven Thinking and n8n's Trigger Model | chapters/chapter-02-event-driven-thinking.md | ✅ Complete |
 | 03 | The n8n Data Model and Expressions | chapters/chapter-03-data-model-expressions.md | ✅ Complete |
-| 04 | Connecting to the World — APIs, Webhooks, and Credentials | chapters/chapter-04-connecting-to-the-world.md | 🔜 Next |
-| 05 | Data Transformation and Validation at Scale | chapters/chapter-05-data-transformation.md | 🔜 |
+| 04 | Connecting to the World — APIs, Webhooks, and Credentials | chapters/chapter-04-connecting-to-the-world.md | ✅ Complete |
+| 05 | Data Transformation and Validation at Scale | chapters/chapter-05-data-transformation.md | 🔜 Next |
 | 06 | Workflow Design Patterns | chapters/chapter-06-workflow-design-patterns.md | 🔜 |
 | 07 | Reliability and Error Recovery | chapters/chapter-07-reliability-error-recovery.md | 🔜 |
 | 08 | Modular Workflow Design and Workflows as Code | chapters/chapter-08-modular-workflow-design.md | 🔜 |

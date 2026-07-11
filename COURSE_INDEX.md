@@ -13,7 +13,7 @@
 
 ## Progress
 
-**3 of 20 chapters complete.** Chapter 01 (Automation Architecture), Chapter 02 (Event-Driven Thinking and n8n's Trigger Model), and Chapter 03 (The n8n Data Model and Expressions) shipped 2026-07-11 — see [ROADMAP.md](./ROADMAP.md) for the kickoff research log.
+**4 of 20 chapters complete — Module 1 (Automation Engineering Foundations) fully complete.** Chapter 01 (Automation Architecture), Chapter 02 (Event-Driven Thinking and n8n's Trigger Model), Chapter 03 (The n8n Data Model and Expressions), and Chapter 04 (Connecting to the World — APIs, Webhooks, and Credentials) shipped 2026-07-11 — see [ROADMAP.md](./ROADMAP.md) for the kickoff research log.
 
 ---
 
@@ -54,7 +54,7 @@ This course teaches **automation engineering**, not n8n's menu system. Every cha
 | 01 | Automation Architecture — Orchestration, Choreography, and the Trigger-Action Model | chapters/chapter-01-automation-architecture.md | ✅ Complete | Sync vs. async, orchestration vs. choreography, idempotency, delivery semantics, when NOT to use a visual platform (vs. Temporal/Airflow) |
 | 02 | Event-Driven Thinking and n8n's Trigger Model | chapters/chapter-02-event-driven-thinking.md | ✅ Complete | Events vs. polling, ordering, deduplication, idempotent handlers, n8n's full trigger taxonomy |
 | 03 | The n8n Data Model and Expressions | chapters/chapter-03-data-model-expressions.md | ✅ Complete | Items, `json`/`binary`, `$json`/`$input`/`$node`, IF/Switch/Merge/Filter |
-| 04 | Connecting to the World — APIs, Webhooks, and Credentials | chapters/chapter-04-connecting-to-the-world.md | 🔜 Next | HTTP Request node, Credentials Manager, webhook authentication, OAuth2/API key patterns |
+| 04 | Connecting to the World — APIs, Webhooks, and Credentials | chapters/chapter-04-connecting-to-the-world.md | ✅ Complete | HTTP Request node, Credentials Manager, webhook authentication, OAuth2/API key patterns |
 
 **Module 1 Learning Goal:** Understand automation as an engineering discipline — not a drag-and-drop skill — and be able to build and connect a real, working, authenticated integration.
 
@@ -67,7 +67,7 @@ This course teaches **automation engineering**, not n8n's menu system. Every cha
 
 | # | Chapter | File | Status | Key Skills |
 |---|---------|------|--------|-----------|
-| 05 | Data Transformation and Validation at Scale | chapters/chapter-05-data-transformation.md | 🔜 | Schema mapping, malformed/missing data handling, batch processing, pagination |
+| 05 | Data Transformation and Validation at Scale | chapters/chapter-05-data-transformation.md | 🔜 Next | Schema mapping, malformed/missing data handling, batch processing, pagination |
 | 06 | Workflow Design Patterns | chapters/chapter-06-workflow-design-patterns.md | 🔜 | Fan-out/fan-in, saga/compensating transactions, pipeline, request-reply, competing consumers |
 | 07 | Reliability and Error Recovery | chapters/chapter-07-reliability-error-recovery.md | 🔜 | Retry/backoff, circuit breakers (extends Vol4 Ch03), dead-letter thinking, Error Trigger/Workflow |
 | 08 | Modular Workflow Design and Workflows as Code | chapters/chapter-08-modular-workflow-design.md | 🔜 | Sub-workflows, one-workflow-per-task, composition, versioning workflows like software |
