@@ -94,8 +94,8 @@ Curriculum-level research run before any chapter existed, to ground the 20-chapt
 
 ## Known Open Questions
 
-- **Repository not yet created on GitHub.** This local folder is initialized as a git repo (`main` branch, no commits yet as of this roadmap's writing) but has no remote. Confirm the intended repository name/visibility before pushing — `n8n-AI-Workflow-Automation` is used as the placeholder name locally, matching the naming convention of `AI-Agent-Engineering`, `RAG-Deep-Dive`, and `MCP-Engineering`.
-- **Volume 4's own `README.md` series table** still lists Volume 5 as "🔜 Planned" with no repository link — worth updating once this repository has a real remote, as a small, separate, low-risk edit in that repository (not done automatically as part of this kickoff).
+- ~~Repository not yet created on GitHub~~ — resolved 2026-07-11: remote is `git@github.com:Bschouha19/n8n-AI-Workflow-Automation.git`, kickoff commit pushed to `main`.
+- ~~Volume 4's own `README.md` series table still lists Volume 5 as "🔜 Planned" with no repository link~~ — resolved 2026-07-11, updated in that repository.
 
 ## Possible Future Additions (Not Yet Scoped)
 
