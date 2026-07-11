@@ -241,10 +241,10 @@ sequenceDiagram
     Field->>Engine: Evaluate {{ $('Fetch Order').item.json.customer_email }}
     Engine->>Registry: Look up node named "Fetch Order"
     Registry-->>Engine: Found — return its output items
-    Engine->>Engine: Take .item (the current item\nfor this execution path)
+    Engine->>Engine: Take .item (the current item for this execution path)
     Engine->>Engine: Take .json (the structured data)
     Engine->>Engine: Take .customer_email (one specific field)
-    Engine-->>Field: Substitute the resolved value\ninto the field, as plain text
+    Engine-->>Field: Substitute the resolved value into the field, as plain text
 ```
 
 If any step in this chain fails — the node name doesn't match anything (commonly because it was renamed and the expression wasn't updated), the item doesn't exist at that path, or the field name is misspelled — the result is typically `undefined`, silently substituted into the field, not a loud error stopping the workflow. This is exactly why this chapter treats expression precision as a first-class engineering skill, not a minor syntax detail.
