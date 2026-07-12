@@ -334,6 +334,20 @@ specific later failure, per this chapter's saga example.
 
 ## Debugging Guide
 
+```mermaid
+flowchart TD
+    Start["A multi-step\nprocess misbehaved"] --> Q1{"Did a downstream\nsystem start erroring\nor rate-limiting?"}
+    Q1 -->|Yes| Fix1["Unrate-limited fan-out —\nadd Loop Over Items between\nSplit Out and the call"]
+    Q1 -->|No| Q2{"Did earlier-succeeded steps\nstay in a half-done state\nafter a later step failed?"}
+    Q2 -->|Yes| Fix2["No compensating step —\ndefine one per\nside-effecting stage"]
+    Q2 -->|No| Q3{"Did an async request-reply\nnever resume?"}
+    Q3 -->|Yes| Fix3["Confirm the callback that\nwas supposed to call\nresumeUrl actually fired"]
+
+    style Fix1 fill:#f8d4d4
+    style Fix2 fill:#f8d4d4
+    style Fix3 fill:#f8d4d4
+```
+
 | Symptom | Likely cause | Where to look |
 |---|---|---|
 | Downstream API starts rate-limiting or erroring under load | Unrate-limited fan-out | Whether Loop Over Items (or an equivalent throttle) sits between Split Out and the downstream call |

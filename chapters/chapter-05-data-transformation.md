@@ -350,6 +350,23 @@ strictly necessary if growth is expected.
 
 ## Debugging Guide
 
+```mermaid
+flowchart TD
+    Start["Something's wrong\nwith the data or\nthe execution"] --> Q1{"Did the execution\nfail outright?"}
+    Q1 -->|Yes| Fix1["Likely memory exhaustion —\nintroduce or shrink\nLoop Over Items batching"]
+    Q1 -->|No| Q2{"Are bad records missing\nfrom the output with\nno trace?"}
+    Q2 -->|Yes| Fix2["A Filter node silently\ndropped them — switch to\nIF with a visible reject path"]
+    Q2 -->|No| Q3{"Did a check pass data\nit clearly shouldn't have?"}
+    Q3 -->|Yes| Fix3["Existence check used where\na validity check was needed —\nsee this chapter's Production Issue"]
+    Q3 -->|No| Q4{"Did it work in testing\nbut misbehave at\nreal volume?"}
+    Q4 -->|Yes| Fix4["Tested on a small, clean\nsample — re-test with\nrealistic data shape and size"]
+
+    style Fix1 fill:#f8d4d4
+    style Fix2 fill:#f8d4d4
+    style Fix3 fill:#f8d4d4
+    style Fix4 fill:#f8d4d4
+```
+
 | Symptom | Likely cause | Where to look |
 |---|---|---|
 | Execution fails partway through a large dataset | Memory exhaustion — no batching, or batch size too large | Batch size configuration; n8n's memory-error documentation |
