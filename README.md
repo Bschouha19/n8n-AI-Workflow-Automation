@@ -55,12 +55,12 @@ Continued directly from Volume 4, not restarted. Modules 1–2 use low-stakes, r
 
 ## Progress
 
-**4 of 20 chapters complete — Module 1 fully complete** — Volume 5 kicked off 2026-07-11. Chapters 01–04 complete 2026-07-11.
+**5 of 20 chapters complete — Module 1 fully complete, Module 2 underway** — Volume 5 kicked off 2026-07-11. Chapters 01–04 complete 2026-07-11; Chapter 05 complete 2026-07-12.
 
 | Module | Chapters | Status |
 |--------|----------|--------|
 | 1 — Automation Engineering Foundations | Ch 01–04 | ✅ Complete (4/4) |
-| 2 — Workflow Design Patterns and Reliability Engineering | Ch 05–08 | 🔜 Not started |
+| 2 — Workflow Design Patterns and Reliability Engineering | Ch 05–08 | 🔄 In progress (1/4) |
 | 3 — AI-Native Automation | Ch 09–13 | 🔜 Not started |
 | 4 — Production Engineering | Ch 14–18 | 🔜 Not started |
 | 5 — Security and Capstone | Ch 19–20 | 🔜 Not started |
@@ -73,8 +73,8 @@ Continued directly from Volume 4, not restarted. Modules 1–2 use low-stakes, r
 | 02 | Event-Driven Thinking and n8n's Trigger Model | ✅ Complete |
 | 03 | The n8n Data Model and Expressions | ✅ Complete |
 | 04 | Connecting to the World — APIs, Webhooks, and Credentials | ✅ Complete |
-| 05 | Data Transformation and Validation at Scale | 🔜 Next |
-| 06 | Workflow Design Patterns | 🔜 |
+| 05 | Data Transformation and Validation at Scale | ✅ Complete |
+| 06 | Workflow Design Patterns | 🔜 Next |
 | 07 | Reliability and Error Recovery | 🔜 |
 | 08 | Modular Workflow Design and Workflows as Code | 🔜 |
 | 09 | The AI Agent Node — LangChain Inside the Canvas | 🔜 |

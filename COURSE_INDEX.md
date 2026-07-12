@@ -13,7 +13,7 @@
 
 ## Progress
 
-**4 of 20 chapters complete — Module 1 (Automation Engineering Foundations) fully complete.** Chapter 01 (Automation Architecture), Chapter 02 (Event-Driven Thinking and n8n's Trigger Model), Chapter 03 (The n8n Data Model and Expressions), and Chapter 04 (Connecting to the World — APIs, Webhooks, and Credentials) shipped 2026-07-11 — see [ROADMAP.md](./ROADMAP.md) for the kickoff research log.
+**5 of 20 chapters complete — Module 1 fully complete, Module 2 underway.** Chapters 01–04 shipped 2026-07-11. Chapter 05 (Data Transformation and Validation at Scale) shipped 2026-07-12 — see [ROADMAP.md](./ROADMAP.md) for the kickoff research log.
 
 ---
 
@@ -67,8 +67,8 @@ This course teaches **automation engineering**, not n8n's menu system. Every cha
 
 | # | Chapter | File | Status | Key Skills |
 |---|---------|------|--------|-----------|
-| 05 | Data Transformation and Validation at Scale | chapters/chapter-05-data-transformation.md | 🔜 Next | Schema mapping, malformed/missing data handling, batch processing, pagination |
-| 06 | Workflow Design Patterns | chapters/chapter-06-workflow-design-patterns.md | 🔜 | Fan-out/fan-in, saga/compensating transactions, pipeline, request-reply, competing consumers |
+| 05 | Data Transformation and Validation at Scale | chapters/chapter-05-data-transformation.md | ✅ Complete | Schema mapping, malformed/missing data handling, batch processing, pagination |
+| 06 | Workflow Design Patterns | chapters/chapter-06-workflow-design-patterns.md | 🔜 Next | Fan-out/fan-in, saga/compensating transactions, pipeline, request-reply, competing consumers |
 | 07 | Reliability and Error Recovery | chapters/chapter-07-reliability-error-recovery.md | 🔜 | Retry/backoff, circuit breakers (extends Vol4 Ch03), dead-letter thinking, Error Trigger/Workflow |
 | 08 | Modular Workflow Design and Workflows as Code | chapters/chapter-08-modular-workflow-design.md | 🔜 | Sub-workflows, one-workflow-per-task, composition, versioning workflows like software |
 
