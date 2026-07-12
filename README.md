@@ -122,7 +122,7 @@ Every reference document is open-in-second-tab material — built for lookup, no
 | 3 | RAG Deep Dive | ✅ Complete (15 chapters) | [RAG-Deep-Dive](https://github.com/Bschouha19/RAG-Deep-Dive) |
 | 4 | AI Agent Engineering | ✅ Complete (15 chapters) | [AI-Agent-Engineering](https://github.com/Bschouha19/AI-Agent-Engineering) |
 | 5 | n8n Automation Engineering | ✅ Complete (20 chapters) | [n8n-AI-Workflow-Automation](https://github.com/Bschouha19/n8n-AI-Workflow-Automation) |
-| 6 | Vector Database Engineering | 🔜 Planned | — |
+| 6 | Vector Database Engineering | 🔄 Kickoff complete, chapters in progress | [Vector-Database-Engineering](https://github.com/Bschouha19/Vector-Database-Engineering) |
 | 7 | Coding Agents | 🔜 Planned | — |
 | 8 | DevOps AI | 🔜 Planned | — |
 | 9 | Technical PM AI | 🔜 Planned | — |
