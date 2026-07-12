@@ -191,4 +191,4 @@ Focus: the AI-native module in full, with just enough foundation and security to
 
 ---
 
-*Last updated: 2026-07-11 — 0 of 20 chapters complete. Curriculum design phase, kickoff research complete, awaiting approval before Chapter 01.*
+*Last updated: 2026-07-12 — 8 of 20 chapters complete. Modules 1 and 2 fully shipped. Chapter 09 next.*

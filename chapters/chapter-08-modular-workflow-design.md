@@ -468,7 +468,7 @@ Treat "does this workflow represent one discrete, describable task, or several?"
 
 ## Resources
 
-- n8n's execution/billing documentation confirming sub-workflow executions don't count separately — the load-bearing fact behind this chapter's Cost Considerations
+- [n8n "Understanding executions" documentation](https://docs.n8n.io/build/understand-workflows/understand-executions) — confirms sub-workflow executions don't count separately toward plan quota, the load-bearing fact behind this chapter's Cost Considerations
 - [n8n Execute Sub-workflow documentation](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.executeworkflow/)
 - [n8n data pinning documentation](https://docs.n8n.io/data/data-pinning)
 
