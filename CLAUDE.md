@@ -361,8 +361,8 @@ Volume 4 repository: https://github.com/Bschouha19/AI-Agent-Engineering
 | 07 | Reliability and Error Recovery | chapters/chapter-07-reliability-error-recovery.md | ✅ Complete |
 | 08 | Modular Workflow Design and Workflows as Code | chapters/chapter-08-modular-workflow-design.md | ✅ Complete |
 | 09 | The AI Agent Node — LangChain Inside the Canvas | chapters/chapter-09-ai-agent-node.md | ✅ Complete |
-| 10 | Retrieval and Memory in n8n | chapters/chapter-10-retrieval-memory.md | 🔜 Next |
-| 11 | Tool-Calling and Multi-Agent Orchestration | chapters/chapter-11-tool-calling-multi-agent.md | 🔜 |
+| 10 | Retrieval and Memory in n8n | chapters/chapter-10-retrieval-memory.md | ✅ Complete |
+| 11 | Tool-Calling and Multi-Agent Orchestration | chapters/chapter-11-tool-calling-multi-agent.md | 🔜 Next |
 | 12 | n8n and MCP — Bridging Visual Automation and the Agent Ecosystem | chapters/chapter-12-n8n-and-mcp.md | 🔜 |
 | 13 | The AI Workflow Builder and Evaluating AI Workflows | chapters/chapter-13-ai-workflow-builder-evaluation.md | 🔜 |
 | 14 | Custom Code Nodes — JavaScript and Python | chapters/chapter-14-custom-code-nodes.md | 🔜 |
