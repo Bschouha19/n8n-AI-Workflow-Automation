@@ -363,8 +363,8 @@ Volume 4 repository: https://github.com/Bschouha19/AI-Agent-Engineering
 | 09 | The AI Agent Node — LangChain Inside the Canvas | chapters/chapter-09-ai-agent-node.md | ✅ Complete |
 | 10 | Retrieval and Memory in n8n | chapters/chapter-10-retrieval-memory.md | ✅ Complete |
 | 11 | Tool-Calling and Multi-Agent Orchestration | chapters/chapter-11-tool-calling-multi-agent.md | ✅ Complete |
-| 12 | n8n and MCP — Bridging Visual Automation and the Agent Ecosystem | chapters/chapter-12-n8n-and-mcp.md | 🔜 Next |
-| 13 | The AI Workflow Builder and Evaluating AI Workflows | chapters/chapter-13-ai-workflow-builder-evaluation.md | 🔜 |
+| 12 | n8n and MCP — Bridging Visual Automation and the Agent Ecosystem | chapters/chapter-12-n8n-and-mcp.md | ✅ Complete |
+| 13 | The AI Workflow Builder and Evaluating AI Workflows | chapters/chapter-13-ai-workflow-builder-evaluation.md | 🔜 Next |
 | 14 | Custom Code Nodes — JavaScript and Python | chapters/chapter-14-custom-code-nodes.md | 🔜 |
 | 15 | Deployment Architecture | chapters/chapter-15-deployment-architecture.md | 🔜 |
 | 16 | Scaling n8n in Production | chapters/chapter-16-scaling-n8n.md | 🔜 |

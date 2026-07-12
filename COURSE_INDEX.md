@@ -13,7 +13,7 @@
 
 ## Progress
 
-**11 of 20 chapters complete — Modules 1 and 2 fully complete, Module 3 underway.** Chapters 01–04 shipped 2026-07-11. Chapters 05–11 shipped 2026-07-12 — see [ROADMAP.md](./ROADMAP.md) for the kickoff research log.
+**12 of 20 chapters complete — Modules 1 and 2 fully complete, Module 3 underway.** Chapters 01–04 shipped 2026-07-11. Chapters 05–12 shipped 2026-07-12 — see [ROADMAP.md](./ROADMAP.md) for the kickoff research log.
 
 ---
 
@@ -86,8 +86,8 @@ This course teaches **automation engineering**, not n8n's menu system. Every cha
 | 09 | The AI Agent Node — LangChain Inside the Canvas | chapters/chapter-09-ai-agent-node.md | ✅ Complete | Model/Memory/Chain node families, bounded agent loops (extends Vol4 Ch01) |
 | 10 | Retrieval and Memory in n8n | chapters/chapter-10-retrieval-memory.md | ✅ Complete | Vector Store nodes, visual RAG pipelines (extends Vol3, Vol4 Ch04/11) |
 | 11 | Tool-Calling and Multi-Agent Orchestration | chapters/chapter-11-tool-calling-multi-agent.md | ✅ Complete | Tools Agent, sub-workflows as agent tools, human-in-the-loop gates (extends Vol4 Ch05/08) |
-| 12 | n8n and MCP — Bridging Visual Automation and the Agent Ecosystem | chapters/chapter-12-n8n-and-mcp.md | 🔜 Next | MCP Server Trigger, MCP Client Tool, n8n's native MCP server (extends Vol2, Vol4 Ch09) |
-| 13 | The AI Workflow Builder and Evaluating AI Workflows | chapters/chapter-13-ai-workflow-builder-evaluation.md | 🔜 | Prompt-to-automation, n8n Evaluations, trajectory thinking (extends Vol4 Ch12) |
+| 12 | n8n and MCP — Bridging Visual Automation and the Agent Ecosystem | chapters/chapter-12-n8n-and-mcp.md | ✅ Complete | MCP Server Trigger, MCP Client Tool, n8n's native MCP server (extends Vol2, Vol4 Ch09) |
+| 13 | The AI Workflow Builder and Evaluating AI Workflows | chapters/chapter-13-ai-workflow-builder-evaluation.md | 🔜 Next | Prompt-to-automation, n8n Evaluations, trajectory thinking (extends Vol4 Ch12) |
 
 **Module 3 Learning Goal:** Build genuinely agentic automation — not just AI-flavored integrations — with the same bounded-autonomy discipline Volume 4 established, now expressed visually.
 
@@ -191,4 +191,4 @@ Focus: the AI-native module in full, with just enough foundation and security to
 
 ---
 
-*Last updated: 2026-07-12 — 11 of 20 chapters complete. Modules 1 and 2 fully shipped, Module 3 underway. Chapter 12 next.*
+*Last updated: 2026-07-12 — 12 of 20 chapters complete. Modules 1 and 2 fully shipped, Module 3 underway. Chapter 13 next — Module 3's final chapter.*
