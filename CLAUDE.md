@@ -366,8 +366,8 @@ Volume 4 repository: https://github.com/Bschouha19/AI-Agent-Engineering
 | 12 | n8n and MCP — Bridging Visual Automation and the Agent Ecosystem | chapters/chapter-12-n8n-and-mcp.md | ✅ Complete |
 | 13 | The AI Workflow Builder and Evaluating AI Workflows | chapters/chapter-13-ai-workflow-builder-evaluation.md | ✅ Complete |
 | 14 | Custom Code Nodes — JavaScript and Python | chapters/chapter-14-custom-code-nodes.md | ✅ Complete |
-| 15 | Deployment Architecture | chapters/chapter-15-deployment-architecture.md | 🔜 Next |
-| 16 | Scaling n8n in Production | chapters/chapter-16-scaling-n8n.md | 🔜 |
+| 15 | Deployment Architecture | chapters/chapter-15-deployment-architecture.md | ✅ Complete |
+| 16 | Scaling n8n in Production | chapters/chapter-16-scaling-n8n.md | 🔜 Next |
 | 17 | Observability — Knowing When Automation Breaks | chapters/chapter-17-observability.md | 🔜 |
 | 18 | Governance and Compliance | chapters/chapter-18-governance-compliance.md | 🔜 |
 | 19 | Securing n8n in Production | chapters/chapter-19-securing-n8n.md | 🔜 |

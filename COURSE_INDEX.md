@@ -13,7 +13,7 @@
 
 ## Progress
 
-**14 of 20 chapters complete — Modules 1, 2, and 3 fully complete, Module 4 underway.** Chapters 01–04 shipped 2026-07-11. Chapters 05–14 shipped 2026-07-12 — see [ROADMAP.md](./ROADMAP.md) for the kickoff research log.
+**15 of 20 chapters complete — Modules 1, 2, and 3 fully complete, Module 4 underway.** Chapters 01–04 shipped 2026-07-11. Chapters 05–15 shipped 2026-07-12 — see [ROADMAP.md](./ROADMAP.md) for the kickoff research log.
 
 ---
 
@@ -101,8 +101,8 @@ This course teaches **automation engineering**, not n8n's menu system. Every cha
 | # | Chapter | File | Status | Key Skills |
 |---|---------|------|--------|-----------|
 | 14 | Custom Code Nodes — JavaScript and Python | chapters/chapter-14-custom-code-nodes.md | ✅ Complete | The Code node, npm/pip packages, performance tradeoffs, community nodes |
-| 15 | Deployment Architecture | chapters/chapter-15-deployment-architecture.md | 🔜 Next | Docker/Compose, environments, CI/CD, self-hosted vs. Cloud decision framework |
-| 16 | Scaling n8n in Production | chapters/chapter-16-scaling-n8n.md | 🔜 | Queue mode, Redis, worker containers, capacity planning, AI-workflow cost at scale |
+| 15 | Deployment Architecture | chapters/chapter-15-deployment-architecture.md | ✅ Complete | Docker/Compose, environments, CI/CD, self-hosted vs. Cloud decision framework |
+| 16 | Scaling n8n in Production | chapters/chapter-16-scaling-n8n.md | 🔜 Next | Queue mode, Redis, worker containers, capacity planning, AI-workflow cost at scale |
 | 17 | Observability — Knowing When Automation Breaks | chapters/chapter-17-observability.md | 🔜 | Execution logs, monitoring, alerting, debugging a silently-failing production workflow |
 | 18 | Governance and Compliance | chapters/chapter-18-governance-compliance.md | 🔜 | RBAC/projects, Git-based source control and environments, audit logs, SOC2/SSO |
 
@@ -191,4 +191,4 @@ Focus: the AI-native module in full, with just enough foundation and security to
 
 ---
 
-*Last updated: 2026-07-12 — 14 of 20 chapters complete. Modules 1, 2, and 3 fully shipped, Module 4 underway. Chapter 15 next.*
+*Last updated: 2026-07-12 — 15 of 20 chapters complete, three-quarters through the course. Modules 1, 2, and 3 fully shipped, Module 4 underway. Chapter 16 next.*
