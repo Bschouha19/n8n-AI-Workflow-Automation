@@ -55,14 +55,14 @@ Continued directly from Volume 4, not restarted. Modules 1–2 use low-stakes, r
 
 ## Progress
 
-**17 of 20 chapters complete — Modules 1, 2, and 3 fully complete, Module 4 underway** — Volume 5 kicked off 2026-07-11. Chapters 01–04 complete 2026-07-11; Chapters 05–17 complete 2026-07-12.
+**18 of 20 chapters complete — Modules 1, 2, 3, and 4 all fully complete** — Volume 5 kicked off 2026-07-11. Chapters 01–04 complete 2026-07-11; Chapters 05–18 complete 2026-07-12.
 
 | Module | Chapters | Status |
 |--------|----------|--------|
 | 1 — Automation Engineering Foundations | Ch 01–04 | ✅ Complete (4/4) |
 | 2 — Workflow Design Patterns and Reliability Engineering | Ch 05–08 | ✅ Complete (4/4) |
 | 3 — AI-Native Automation | Ch 09–13 | ✅ Complete (5/5) |
-| 4 — Production Engineering | Ch 14–18 | 🔄 In progress (4/5) |
+| 4 — Production Engineering | Ch 14–18 | ✅ Complete (5/5) |
 | 5 — Security and Capstone | Ch 19–20 | 🔜 Not started |
 
 ### Chapter-by-Chapter
@@ -86,8 +86,8 @@ Continued directly from Volume 4, not restarted. Modules 1–2 use low-stakes, r
 | 15 | Deployment Architecture | ✅ Complete |
 | 16 | Scaling n8n in Production | ✅ Complete |
 | 17 | Observability — Knowing When Automation Breaks | ✅ Complete |
-| 18 | Governance and Compliance | 🔜 Next |
-| 19 | Securing n8n in Production | 🔜 |
+| 18 | Governance and Compliance | ✅ Complete |
+| 19 | Securing n8n in Production | 🔜 Next |
 | 20 | Capstone — Aperture Cloud's Production Automation Platform | 🔜 |
 
 See [COURSE_INDEX.md](./COURSE_INDEX.md) for learning goals, dependency map, and alternate learning paths.
