@@ -367,8 +367,8 @@ Volume 4 repository: https://github.com/Bschouha19/AI-Agent-Engineering
 | 13 | The AI Workflow Builder and Evaluating AI Workflows | chapters/chapter-13-ai-workflow-builder-evaluation.md | ✅ Complete |
 | 14 | Custom Code Nodes — JavaScript and Python | chapters/chapter-14-custom-code-nodes.md | ✅ Complete |
 | 15 | Deployment Architecture | chapters/chapter-15-deployment-architecture.md | ✅ Complete |
-| 16 | Scaling n8n in Production | chapters/chapter-16-scaling-n8n.md | 🔜 Next |
-| 17 | Observability — Knowing When Automation Breaks | chapters/chapter-17-observability.md | 🔜 |
+| 16 | Scaling n8n in Production | chapters/chapter-16-scaling-n8n.md | ✅ Complete |
+| 17 | Observability — Knowing When Automation Breaks | chapters/chapter-17-observability.md | 🔜 Next |
 | 18 | Governance and Compliance | chapters/chapter-18-governance-compliance.md | 🔜 |
 | 19 | Securing n8n in Production | chapters/chapter-19-securing-n8n.md | 🔜 |
 | 20 | Capstone — Aperture Cloud's Production Automation Platform | chapters/chapter-20-capstone.md | 🔜 |
