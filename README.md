@@ -55,7 +55,7 @@ Continued directly from Volume 4, not restarted. Modules 1–2 use low-stakes, r
 
 ## Progress
 
-**19 of 20 chapters complete — every module except the Capstone is fully shipped** — Volume 5 kicked off 2026-07-11. Chapters 01–04 complete 2026-07-11; Chapters 05–19 complete 2026-07-12.
+**20 of 20 chapters complete — the course is fully shipped** — Volume 5 kicked off 2026-07-11, completed 2026-07-12.
 
 | Module | Chapters | Status |
 |--------|----------|--------|
@@ -63,7 +63,7 @@ Continued directly from Volume 4, not restarted. Modules 1–2 use low-stakes, r
 | 2 — Workflow Design Patterns and Reliability Engineering | Ch 05–08 | ✅ Complete (4/4) |
 | 3 — AI-Native Automation | Ch 09–13 | ✅ Complete (5/5) |
 | 4 — Production Engineering | Ch 14–18 | ✅ Complete (5/5) |
-| 5 — Security and Capstone | Ch 19–20 | 🔄 In progress (1/2) |
+| 5 — Security and Capstone | Ch 19–20 | ✅ Complete (2/2) |
 
 ### Chapter-by-Chapter
 
@@ -88,7 +88,7 @@ Continued directly from Volume 4, not restarted. Modules 1–2 use low-stakes, r
 | 17 | Observability — Knowing When Automation Breaks | ✅ Complete |
 | 18 | Governance and Compliance | ✅ Complete |
 | 19 | Securing n8n in Production | ✅ Complete |
-| 20 | Capstone — Aperture Cloud's Production Automation Platform | 🔜 Next (paused for review) |
+| 20 | Capstone — Aperture Cloud's Production Automation Platform | ✅ Complete |
 
 See [COURSE_INDEX.md](./COURSE_INDEX.md) for learning goals, dependency map, and alternate learning paths.
 
@@ -121,7 +121,7 @@ Every reference document is open-in-second-tab material — built for lookup, no
 | 2 | MCP Engineering | ✅ Complete (15 chapters) | [MCP-Engineering](https://github.com/Bschouha19/MCP-Engineering) |
 | 3 | RAG Deep Dive | ✅ Complete (15 chapters) | [RAG-Deep-Dive](https://github.com/Bschouha19/RAG-Deep-Dive) |
 | 4 | AI Agent Engineering | ✅ Complete (15 chapters) | [AI-Agent-Engineering](https://github.com/Bschouha19/AI-Agent-Engineering) |
-| 5 | n8n Automation Engineering | 🔄 In Progress | *(repository pending — see ROADMAP.md)* |
+| 5 | n8n Automation Engineering | ✅ Complete (20 chapters) | [n8n-AI-Workflow-Automation](https://github.com/Bschouha19/n8n-AI-Workflow-Automation) |
 | 6 | Vector Database Engineering | 🔜 Planned | — |
 | 7 | Coding Agents | 🔜 Planned | — |
 | 8 | DevOps AI | 🔜 Planned | — |
@@ -132,4 +132,4 @@ Every reference document is open-in-second-tab material — built for lookup, no
 
 ---
 
-*Volume 5 started July 2026. Target: 20 chapters.*
+*Volume 5 started 2026-07-11 and completed 2026-07-12, kickoff to Capstone, at the full 20-chapter target.*

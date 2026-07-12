@@ -13,7 +13,7 @@
 
 ## Progress
 
-**19 of 20 chapters complete — every module except the Capstone is fully shipped.** Chapters 01–04 shipped 2026-07-11. Chapters 05–19 shipped 2026-07-12 — see [ROADMAP.md](./ROADMAP.md) for the kickoff research log.
+**20 of 20 chapters complete — the course is fully shipped.** Chapters 01–04 shipped 2026-07-11. Chapters 05–20 shipped 2026-07-12 — see [ROADMAP.md](./ROADMAP.md) for the kickoff research log.
 
 ---
 
@@ -118,7 +118,7 @@ This course teaches **automation engineering**, not n8n's menu system. Every cha
 | # | Chapter | File | Status | Key Skills |
 |---|---------|------|--------|-----------|
 | 19 | Securing n8n in Production | chapters/chapter-19-securing-n8n.md | ✅ Complete | Real CVE case studies, credential hygiene, webhook auth, prompt-injection risk in AI Agent workflows |
-| 20 | Capstone — Aperture Cloud's Production Automation Platform | chapters/chapter-20-capstone.md | 🔜 Next (paused for review) | Everything: event-driven, reliable, MCP-connected AI agent, RAG, human approval, deployed, scaled, observed, governed |
+| 20 | Capstone — Aperture Cloud's Production Automation Platform | chapters/chapter-20-capstone.md | ✅ Complete | Everything: event-driven, reliable, MCP-connected AI agent, RAG, human approval, deployed, scaled, observed, governed |
 
 **Capstone System:** A production automation platform for Aperture Cloud — event-driven triggers feeding reliable, modular sub-workflows; an MCP-connected AI agent with retrieval and a human-approval gate for its one consequential capability; deployed in queue mode, observed with real alerting, and governed with RBAC and Git-based environments. Explicitly designed so a reader can substitute their own company's automation needs with no conceptual gap.
 
@@ -191,4 +191,4 @@ Focus: the AI-native module in full, with just enough foundation and security to
 
 ---
 
-*Last updated: 2026-07-12 — 19 of 20 chapters complete. Every module except the Capstone is fully shipped. Chapter 20 (Capstone) is next, deliberately paused for user review before writing, since it must synthesize all 19 prior chapters.*
+*Last updated: 2026-07-12 — 20 of 20 chapters complete. The course is fully shipped, kickoff to Capstone, in a single continuous authoring run across 2026-07-11 and 2026-07-12.*
