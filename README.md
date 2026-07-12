@@ -55,14 +55,14 @@ Continued directly from Volume 4, not restarted. Modules 1–2 use low-stakes, r
 
 ## Progress
 
-**13 of 20 chapters complete — Modules 1, 2, and 3 fully complete** — Volume 5 kicked off 2026-07-11. Chapters 01–04 complete 2026-07-11; Chapters 05–13 complete 2026-07-12.
+**14 of 20 chapters complete — Modules 1, 2, and 3 fully complete, Module 4 underway** — Volume 5 kicked off 2026-07-11. Chapters 01–04 complete 2026-07-11; Chapters 05–14 complete 2026-07-12.
 
 | Module | Chapters | Status |
 |--------|----------|--------|
 | 1 — Automation Engineering Foundations | Ch 01–04 | ✅ Complete (4/4) |
 | 2 — Workflow Design Patterns and Reliability Engineering | Ch 05–08 | ✅ Complete (4/4) |
 | 3 — AI-Native Automation | Ch 09–13 | ✅ Complete (5/5) |
-| 4 — Production Engineering | Ch 14–18 | 🔜 Not started |
+| 4 — Production Engineering | Ch 14–18 | 🔄 In progress (1/5) |
 | 5 — Security and Capstone | Ch 19–20 | 🔜 Not started |
 
 ### Chapter-by-Chapter
@@ -82,8 +82,8 @@ Continued directly from Volume 4, not restarted. Modules 1–2 use low-stakes, r
 | 11 | Tool-Calling and Multi-Agent Orchestration | ✅ Complete |
 | 12 | n8n and MCP — Bridging Visual Automation and the Agent Ecosystem | ✅ Complete |
 | 13 | The AI Workflow Builder and Evaluating AI Workflows | ✅ Complete |
-| 14 | Custom Code Nodes — JavaScript and Python | 🔜 Next |
-| 15 | Deployment Architecture | 🔜 |
+| 14 | Custom Code Nodes — JavaScript and Python | ✅ Complete |
+| 15 | Deployment Architecture | 🔜 Next |
 | 16 | Scaling n8n in Production | 🔜 |
 | 17 | Observability — Knowing When Automation Breaks | 🔜 |
 | 18 | Governance and Compliance | 🔜 |
