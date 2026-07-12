@@ -374,6 +374,23 @@ decides whether to close the circuit again, per Diagram 2.
 
 ## Debugging Guide
 
+```mermaid
+flowchart TD
+    Start["A failure happened —\nwhat now?"] --> Q1{"Did the SAME side\neffect happen more\nthan once?"}
+    Q1 -->|Yes| Fix1["Retry on a non-idempotent\ncall — add an idempotency\nkey, per Chapter 01"]
+    Q1 -->|No| Q2{"Is the workflow still\nretrying a system that's\nclearly, persistently down?"}
+    Q2 -->|Yes| Fix2["No circuit breaker —\nadd one, per this\nchapter's Advanced\nImplementation"]
+    Q2 -->|No| Q3{"Did error-handling logic\nitself throw or misbehave?"}
+    Q3 -->|Yes| Fix3["Likely assumed\nexecution.id always\nexists — check the\nfailure's actual payload shape"]
+    Q3 -->|No| Q4{"Was the failure only\nnoticed long after\nit happened?"}
+    Q4 -->|Yes| Fix4["No dead-letter queue,\nor one nobody reviews"]
+
+    style Fix1 fill:#f8d4d4
+    style Fix2 fill:#f8d4d4
+    style Fix3 fill:#f8d4d4
+    style Fix4 fill:#f8d4d4
+```
+
 | Symptom | Likely cause | Where to look |
 |---|---|---|
 | Duplicate side effects after a transient failure | Retry on a non-idempotent operation, no idempotency key | Whether the retried call is genuinely safe to repeat |
@@ -425,6 +442,8 @@ flowchart TD
 ---
 
 ### Production Issue: The Retry That Doubled Every Order
+
+> **Worth distinguishing from Chapter 01's own Production Issue**, which looked similar on the surface but had a different mechanism: there, the *caller* (an external e-commerce platform) retried because *n8n's* response was too slow — an ack-timing problem on the receiving side. Here, the retry is *n8n's own outbound* Retry On Fail, misfiring because the operation it retried had no idempotency protection at all. Same symptom (a duplicate), two structurally different root causes — worth being able to tell apart.
 
 **Symptoms**
 
@@ -539,7 +558,7 @@ Treat "does this call have an idempotency key, or a way to check prior success b
 ## Resources
 
 - n8n's official "Exponential backoff for Google APIs" template — cited in this chapter as evidence hand-built backoff is an endorsed pattern
-- [n8n workflow static data documentation](https://docs.n8n.io) — the mechanism behind this chapter's circuit breaker
+- [n8n getWorkflowStaticData documentation](https://docs.n8n.io/code/cookbook/builtin/get-workflow-static-data/) — the mechanism behind this chapter's circuit breaker
 - [n8n Error Trigger documentation](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.errortrigger/) — the payload shapes this chapter builds on
 
 ## Glossary Terms Introduced
@@ -551,6 +570,7 @@ Treat "does this call have an idempotency key, or a way to check prior success b
 | Circuit Breaker | Stopping calls entirely after a consecutive-failure threshold |
 | Dead Letter Queue | A durable capture point for unrecoverable failures, for human review |
 | Idempotent Retry | A retry safe to perform because the operation can't be duplicated |
+| Error Trigger Payload | The failure data an Error Trigger receives — shape differs for trigger-node vs. regular-node failures |
 | Standing Error Workflow | One shared Error Workflow applied as the default across workflows |
 
 ## See Also
