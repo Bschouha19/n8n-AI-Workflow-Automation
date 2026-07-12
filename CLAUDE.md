@@ -370,8 +370,8 @@ Volume 4 repository: https://github.com/Bschouha19/AI-Agent-Engineering
 | 16 | Scaling n8n in Production | chapters/chapter-16-scaling-n8n.md | ✅ Complete |
 | 17 | Observability — Knowing When Automation Breaks | chapters/chapter-17-observability.md | ✅ Complete |
 | 18 | Governance and Compliance | chapters/chapter-18-governance-compliance.md | ✅ Complete |
-| 19 | Securing n8n in Production | chapters/chapter-19-securing-n8n.md | 🔜 Next |
-| 20 | Capstone — Aperture Cloud's Production Automation Platform | chapters/chapter-20-capstone.md | 🔜 |
+| 19 | Securing n8n in Production | chapters/chapter-19-securing-n8n.md | ✅ Complete |
+| 20 | Capstone — Aperture Cloud's Production Automation Platform | chapters/chapter-20-capstone.md | 🔜 Next (paused for review) |
 
 ---
 
