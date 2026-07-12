@@ -55,12 +55,12 @@ Continued directly from Volume 4, not restarted. Modules 1–2 use low-stakes, r
 
 ## Progress
 
-**7 of 20 chapters complete — Module 1 fully complete, Module 2 underway** — Volume 5 kicked off 2026-07-11. Chapters 01–04 complete 2026-07-11; Chapters 05–07 complete 2026-07-12.
+**8 of 20 chapters complete — Modules 1 and 2 fully complete** — Volume 5 kicked off 2026-07-11. Chapters 01–04 complete 2026-07-11; Chapters 05–08 complete 2026-07-12.
 
 | Module | Chapters | Status |
 |--------|----------|--------|
 | 1 — Automation Engineering Foundations | Ch 01–04 | ✅ Complete (4/4) |
-| 2 — Workflow Design Patterns and Reliability Engineering | Ch 05–08 | 🔄 In progress (3/4) |
+| 2 — Workflow Design Patterns and Reliability Engineering | Ch 05–08 | ✅ Complete (4/4) |
 | 3 — AI-Native Automation | Ch 09–13 | 🔜 Not started |
 | 4 — Production Engineering | Ch 14–18 | 🔜 Not started |
 | 5 — Security and Capstone | Ch 19–20 | 🔜 Not started |
@@ -76,8 +76,8 @@ Continued directly from Volume 4, not restarted. Modules 1–2 use low-stakes, r
 | 05 | Data Transformation and Validation at Scale | ✅ Complete |
 | 06 | Workflow Design Patterns | ✅ Complete |
 | 07 | Reliability and Error Recovery | ✅ Complete |
-| 08 | Modular Workflow Design and Workflows as Code | 🔜 Next |
-| 09 | The AI Agent Node — LangChain Inside the Canvas | 🔜 |
+| 08 | Modular Workflow Design and Workflows as Code | ✅ Complete |
+| 09 | The AI Agent Node — LangChain Inside the Canvas | 🔜 Next |
 | 10 | Retrieval and Memory in n8n | 🔜 |
 | 11 | Tool-Calling and Multi-Agent Orchestration | 🔜 |
 | 12 | n8n and MCP — Bridging Visual Automation and the Agent Ecosystem | 🔜 |

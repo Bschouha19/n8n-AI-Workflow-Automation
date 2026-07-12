@@ -13,7 +13,7 @@
 
 ## Progress
 
-**7 of 20 chapters complete — Module 1 fully complete, Module 2 underway.** Chapters 01–04 shipped 2026-07-11. Chapters 05–07 shipped 2026-07-12 — see [ROADMAP.md](./ROADMAP.md) for the kickoff research log.
+**8 of 20 chapters complete — Modules 1 and 2 fully complete.** Chapters 01–04 shipped 2026-07-11. Chapters 05–08 shipped 2026-07-12 — see [ROADMAP.md](./ROADMAP.md) for the kickoff research log.
 
 ---
 
@@ -70,7 +70,7 @@ This course teaches **automation engineering**, not n8n's menu system. Every cha
 | 05 | Data Transformation and Validation at Scale | chapters/chapter-05-data-transformation.md | ✅ Complete | Schema mapping, malformed/missing data handling, batch processing, pagination |
 | 06 | Workflow Design Patterns | chapters/chapter-06-workflow-design-patterns.md | ✅ Complete | Fan-out/fan-in, saga/compensating transactions, pipeline, request-reply, competing consumers |
 | 07 | Reliability and Error Recovery | chapters/chapter-07-reliability-error-recovery.md | ✅ Complete | Retry/backoff, circuit breakers (extends Vol4 Ch03), dead-letter thinking, Error Trigger/Workflow |
-| 08 | Modular Workflow Design and Workflows as Code | chapters/chapter-08-modular-workflow-design.md | 🔜 Next | Sub-workflows, one-workflow-per-task, composition, versioning workflows like software |
+| 08 | Modular Workflow Design and Workflows as Code | chapters/chapter-08-modular-workflow-design.md | ✅ Complete | Sub-workflows, one-workflow-per-task, composition, versioning workflows like software |
 
 **Module 2 Learning Goal:** Design workflows using named, reusable patterns, and build in the reliability and modularity that separates production automation from a fragile demo.
 
@@ -83,7 +83,7 @@ This course teaches **automation engineering**, not n8n's menu system. Every cha
 
 | # | Chapter | File | Status | Key Skills |
 |---|---------|------|--------|-----------|
-| 09 | The AI Agent Node — LangChain Inside the Canvas | chapters/chapter-09-ai-agent-node.md | 🔜 | Model/Memory/Chain node families, bounded agent loops (extends Vol4 Ch01) |
+| 09 | The AI Agent Node — LangChain Inside the Canvas | chapters/chapter-09-ai-agent-node.md | 🔜 Next | Model/Memory/Chain node families, bounded agent loops (extends Vol4 Ch01) |
 | 10 | Retrieval and Memory in n8n | chapters/chapter-10-retrieval-memory.md | 🔜 | Vector Store nodes, visual RAG pipelines (extends Vol3, Vol4 Ch04/11) |
 | 11 | Tool-Calling and Multi-Agent Orchestration | chapters/chapter-11-tool-calling-multi-agent.md | 🔜 | Tools Agent, sub-workflows as agent tools, human-in-the-loop gates (extends Vol4 Ch05/08) |
 | 12 | n8n and MCP — Bridging Visual Automation and the Agent Ecosystem | chapters/chapter-12-n8n-and-mcp.md | 🔜 | MCP Server Trigger, MCP Client Tool, n8n's native MCP server (extends Vol2, Vol4 Ch09) |

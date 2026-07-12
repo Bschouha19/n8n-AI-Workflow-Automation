@@ -359,8 +359,8 @@ Volume 4 repository: https://github.com/Bschouha19/AI-Agent-Engineering
 | 05 | Data Transformation and Validation at Scale | chapters/chapter-05-data-transformation.md | ✅ Complete |
 | 06 | Workflow Design Patterns | chapters/chapter-06-workflow-design-patterns.md | ✅ Complete |
 | 07 | Reliability and Error Recovery | chapters/chapter-07-reliability-error-recovery.md | ✅ Complete |
-| 08 | Modular Workflow Design and Workflows as Code | chapters/chapter-08-modular-workflow-design.md | 🔜 Next |
-| 09 | The AI Agent Node — LangChain Inside the Canvas | chapters/chapter-09-ai-agent-node.md | 🔜 |
+| 08 | Modular Workflow Design and Workflows as Code | chapters/chapter-08-modular-workflow-design.md | ✅ Complete |
+| 09 | The AI Agent Node — LangChain Inside the Canvas | chapters/chapter-09-ai-agent-node.md | 🔜 Next |
 | 10 | Retrieval and Memory in n8n | chapters/chapter-10-retrieval-memory.md | 🔜 |
 | 11 | Tool-Calling and Multi-Agent Orchestration | chapters/chapter-11-tool-calling-multi-agent.md | 🔜 |
 | 12 | n8n and MCP — Bridging Visual Automation and the Agent Ecosystem | chapters/chapter-12-n8n-and-mcp.md | 🔜 |
