@@ -13,7 +13,7 @@
 
 ## Progress
 
-**16 of 20 chapters complete — Modules 1, 2, and 3 fully complete, Module 4 underway.** Chapters 01–04 shipped 2026-07-11. Chapters 05–16 shipped 2026-07-12 — see [ROADMAP.md](./ROADMAP.md) for the kickoff research log.
+**17 of 20 chapters complete — Modules 1, 2, and 3 fully complete, Module 4 underway.** Chapters 01–04 shipped 2026-07-11. Chapters 05–17 shipped 2026-07-12 — see [ROADMAP.md](./ROADMAP.md) for the kickoff research log.
 
 ---
 
@@ -103,8 +103,8 @@ This course teaches **automation engineering**, not n8n's menu system. Every cha
 | 14 | Custom Code Nodes — JavaScript and Python | chapters/chapter-14-custom-code-nodes.md | ✅ Complete | The Code node, npm/pip packages, performance tradeoffs, community nodes |
 | 15 | Deployment Architecture | chapters/chapter-15-deployment-architecture.md | ✅ Complete | Docker/Compose, environments, CI/CD, self-hosted vs. Cloud decision framework |
 | 16 | Scaling n8n in Production | chapters/chapter-16-scaling-n8n.md | ✅ Complete | Queue mode, Redis, worker containers, capacity planning, AI-workflow cost at scale |
-| 17 | Observability — Knowing When Automation Breaks | chapters/chapter-17-observability.md | 🔜 Next | Execution logs, monitoring, alerting, debugging a silently-failing production workflow |
-| 18 | Governance and Compliance | chapters/chapter-18-governance-compliance.md | 🔜 | RBAC/projects, Git-based source control and environments, audit logs, SOC2/SSO |
+| 17 | Observability — Knowing When Automation Breaks | chapters/chapter-17-observability.md | ✅ Complete | Execution logs, monitoring, alerting, debugging a silently-failing production workflow |
+| 18 | Governance and Compliance | chapters/chapter-18-governance-compliance.md | 🔜 Next | RBAC/projects, Git-based source control and environments, audit logs, SOC2/SSO |
 
 **Module 4 Learning Goal:** Operate n8n the way you'd operate any other piece of production infrastructure — deployed deliberately, scaled with headroom, observed continuously, and governed with real, auditable access control.
 
@@ -191,4 +191,4 @@ Focus: the AI-native module in full, with just enough foundation and security to
 
 ---
 
-*Last updated: 2026-07-12 — 16 of 20 chapters complete. Modules 1, 2, and 3 fully shipped, Module 4 underway. Chapter 17 next.*
+*Last updated: 2026-07-12 — 17 of 20 chapters complete. Modules 1, 2, and 3 fully shipped, Module 4 underway. Chapter 18 next — the final chapter of Module 4.*
