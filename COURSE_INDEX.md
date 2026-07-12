@@ -13,7 +13,7 @@
 
 ## Progress
 
-**5 of 20 chapters complete — Module 1 fully complete, Module 2 underway.** Chapters 01–04 shipped 2026-07-11. Chapter 05 (Data Transformation and Validation at Scale) shipped 2026-07-12 — see [ROADMAP.md](./ROADMAP.md) for the kickoff research log.
+**6 of 20 chapters complete — Module 1 fully complete, Module 2 underway.** Chapters 01–04 shipped 2026-07-11. Chapters 05–06 shipped 2026-07-12 — see [ROADMAP.md](./ROADMAP.md) for the kickoff research log.
 
 ---
 
@@ -68,8 +68,8 @@ This course teaches **automation engineering**, not n8n's menu system. Every cha
 | # | Chapter | File | Status | Key Skills |
 |---|---------|------|--------|-----------|
 | 05 | Data Transformation and Validation at Scale | chapters/chapter-05-data-transformation.md | ✅ Complete | Schema mapping, malformed/missing data handling, batch processing, pagination |
-| 06 | Workflow Design Patterns | chapters/chapter-06-workflow-design-patterns.md | 🔜 Next | Fan-out/fan-in, saga/compensating transactions, pipeline, request-reply, competing consumers |
-| 07 | Reliability and Error Recovery | chapters/chapter-07-reliability-error-recovery.md | 🔜 | Retry/backoff, circuit breakers (extends Vol4 Ch03), dead-letter thinking, Error Trigger/Workflow |
+| 06 | Workflow Design Patterns | chapters/chapter-06-workflow-design-patterns.md | ✅ Complete | Fan-out/fan-in, saga/compensating transactions, pipeline, request-reply, competing consumers |
+| 07 | Reliability and Error Recovery | chapters/chapter-07-reliability-error-recovery.md | 🔜 Next | Retry/backoff, circuit breakers (extends Vol4 Ch03), dead-letter thinking, Error Trigger/Workflow |
 | 08 | Modular Workflow Design and Workflows as Code | chapters/chapter-08-modular-workflow-design.md | 🔜 | Sub-workflows, one-workflow-per-task, composition, versioning workflows like software |
 
 **Module 2 Learning Goal:** Design workflows using named, reusable patterns, and build in the reliability and modularity that separates production automation from a fragile demo.

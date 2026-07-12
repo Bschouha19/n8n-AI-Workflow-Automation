@@ -357,8 +357,8 @@ Volume 4 repository: https://github.com/Bschouha19/AI-Agent-Engineering
 | 03 | The n8n Data Model and Expressions | chapters/chapter-03-data-model-expressions.md | ✅ Complete |
 | 04 | Connecting to the World — APIs, Webhooks, and Credentials | chapters/chapter-04-connecting-to-the-world.md | ✅ Complete |
 | 05 | Data Transformation and Validation at Scale | chapters/chapter-05-data-transformation.md | ✅ Complete |
-| 06 | Workflow Design Patterns | chapters/chapter-06-workflow-design-patterns.md | 🔜 Next |
-| 07 | Reliability and Error Recovery | chapters/chapter-07-reliability-error-recovery.md | 🔜 |
+| 06 | Workflow Design Patterns | chapters/chapter-06-workflow-design-patterns.md | ✅ Complete |
+| 07 | Reliability and Error Recovery | chapters/chapter-07-reliability-error-recovery.md | 🔜 Next |
 | 08 | Modular Workflow Design and Workflows as Code | chapters/chapter-08-modular-workflow-design.md | 🔜 |
 | 09 | The AI Agent Node — LangChain Inside the Canvas | chapters/chapter-09-ai-agent-node.md | 🔜 |
 | 10 | Retrieval and Memory in n8n | chapters/chapter-10-retrieval-memory.md | 🔜 |
